@@ -5,12 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
-    <h1>
-        ola
-    </h1>
-    <img src="./images/9352939-papel-arte-de-aniversario-com-balao-e-nuvem-no-ceu-pode-ser-usado-para-papel-de-parede-convite-cartazes-banners-design-vetor.jpg" alt="base">
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">Meu aniverário começa em 
+                <br>
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Java Script - Bairro Html - Rio Grande do Sul
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        16/07/2024 às 00:00hrs
+                    </li>
+                    <a href="#" class="button button--primary">
+                        Comparecerei 
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Lorem, ipsum dolor.</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam possimus dolor unde blanditiis
+                    provident, ad quas error? Velit, ab quaerat distinctio aut eius, nesciunt accusamus maxime, quod
+                    recusandae dignissimos nam!
+                </p>
+            </div>
+            <img class="event__image" src="./images/613de62f54e0d400befa857fb8586eef.png" alt="Front-End">
+        </div>
+    </section>
+    <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Lorem, ipsum dolor.</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam possimus dolor unde blanditiis
+                    provident, ad quas error? Velit, ab quaerat distinctio aut eius, nesciunt accusamus maxime, quod
+                    recusandae dignissimos nam!
+                </p>
+            </div>
+            <img class="event__image" src="./images/960e4f9c1cf28ffb9101190126a1342c.png" alt="ui-ux">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Lorem, ipsum dolor.</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam possimus dolor unde blanditiis
+                    provident, ad quas error? Velit, ab quaerat distinctio aut eius, nesciunt accusamus maxime, quod
+                    recusandae dignissimos nam!
+                </p>
+            </div>
+            <img class="event__image" src="./images/flork-png-52.png" alt="Data-Science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Lorem, ipsum dolor.</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam possimus dolor unde blanditiis
+                    provident, ad quas error? Velit, ab quaerat distinctio aut eius, nesciunt accusamus maxime, quod
+                    recusandae dignissimos nam!
+                </p>
+            </div>
+            <img class="event__image" src="./images/Super-Parabens-Flork-PNG.png" alt="Back-end">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
